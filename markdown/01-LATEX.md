@@ -2,11 +2,15 @@
 
 The editor converts LaTeX equations in double-dollars `$$`: $$ax^2+bx+c=0$$. All equations are rendered as block equations. If you need inline ones, you can add the prefix `\inline`: $$\inline p={1\over q}$$. But it is a good practice to place big equations on separate lines:
 
+##--##
+
 $$x_{1,2} = {-b\pm\sqrt{b^2 - 4ac} \over 2a}.$$
 
 In this case the LaTeX syntax will be highlighted in the source code. You can even add equation numbers (unfortunately there is no automatic numbering and refs support):
 
 $$|\vec{A}|=\sqrt{A_x^2 + A_y^2 + A_z^2}.$$(1)
+
+##--##
 
 It is possible to write Cyrillic symbols in `\text` command: $$Q_\text{плавления}>0$$.
 
@@ -22,6 +26,8 @@ $$T^{\mu\nu}=\begin{pmatrix}
 integrals:
 
 $$P_\omega={n_\omega\over 2}\hbar\omega\,{1+R\over 1-v^2}\int\limits_{-1}^{1}dx\,(x-v)|x-v|,$$
+
+##--##
 
 cool tikz-pictures:
 
@@ -52,6 +58,8 @@ decoration={snake,amplitude=.3mm,segment length=2.5mm,post length=0.9mm},decorat
 \draw[thin](\r,0) arc (0:atan2(\p,\w):\r) node[midway,right,yshift=0.06cm] {$\theta$};
 \draw[opacity=0](-0.40,-0.14)-- ++(0,5.06);
 \end{tikzpicture}$$
+
+##--##
 
 plots:
 
